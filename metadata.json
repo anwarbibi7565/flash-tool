@@ -1,0 +1,6 @@
+{
+  "name": "MTK Keypad Reset Tool",
+  "description": "Professional Windows desktop utility for Future Repairing Institute to safely detect MTK keypad phones, verify chipset compatibility, and perform factory resets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

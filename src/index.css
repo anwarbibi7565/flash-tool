@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #0B1220;
+    --panel-dark: #172033;
+    --panel-border: rgba(255, 255, 255, 0.08);
+    --primary-blue: #00A8FF;
+    --success-green: #00D084;
+    --warning-orange: #FFB020;
+    --error-red: #FF4757;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar for Windows utility appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1525;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23314d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00A8FF;
+}
